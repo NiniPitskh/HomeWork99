@@ -9,18 +9,22 @@ partial class Program
     static void Main()
     {
 
-        //        TxtFileWorker txtWorker = new TxtFileWorker();
-        //        txtWorker.MaxSize = 128;
-        //        txtWorker.Write();
-        //        txtWorker.Read();
-        //        txtWorker.Edit();
-        //        txtWorker.Delete();
-        //    }
-        //}
+        TxtFileWorker txtWorker = new TxtFileWorker();
+        txtWorker.MaxSize = 128;
+        txtWorker.Write();
+        txtWorker.Read();
+        txtWorker.Edit();
+        txtWorker.Delete();
+    }
+}
 
-        //Task 2
 
-        FinanceOperations bank = new Bank();
+
+
+
+//Task 2
+
+FinanceOperations bank = new Bank();
         {
             if (bank.CheckUserHistory())
             {

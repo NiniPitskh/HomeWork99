@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork9", "HomeWork9.csproj", "{FFB68B01-8AB6-4D55-B802-D18325B06B81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork9", "HomeWork9.csproj", "{FFB68B01-8AB6-4D55-B802-D18325B06B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork 10", "..\HomeWork 10\HomeWork 10.csproj", "{1FB86EBF-0799-40CF-94BC-216C857C3571}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02FC4608-A728-4A1E-B274-D4EDD5EFF409}"
+	ProjectSection(SolutionItems) = preProject
+		dates.json = dates.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{FFB68B01-8AB6-4D55-B802-D18325B06B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFB68B01-8AB6-4D55-B802-D18325B06B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFB68B01-8AB6-4D55-B802-D18325B06B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB86EBF-0799-40CF-94BC-216C857C3571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB86EBF-0799-40CF-94BC-216C857C3571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB86EBF-0799-40CF-94BC-216C857C3571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB86EBF-0799-40CF-94BC-216C857C3571}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
